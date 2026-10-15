@@ -1,0 +1,19 @@
+
+classDiagram
+    class Estudiante {
+        -String nombre
+        -String apellido
+        -int edad
+        -String carrera
+        -int semestre
+    }
+```
+
+Qué información representa cada atributo y qué valores podría almacenar
+
+Atributo	Tipo	Qué representa	Valores posibles
+nombre	String	Nombre(s) de pila del estudiante	“María”, “Juan Carlos”
+apellido	String	Apellido(s) del estudiante	“Pérez”, “Toapanta Silva”
+edad	int	Edad en años cumplidos, siempre un número entero	18, 20, 23
+carrera	String	Carrera que cursa en la universidad	“Software”, “Telecomunicaciones”, “Industrial”
+semestre	int	Nivel o semestre que cursa actualmente	1, 2, 5, 9
