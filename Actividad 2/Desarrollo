@@ -1,4 +1,10 @@
+# Actividad 2. Diseño de la solución
 
+## 1. Diagrama de la clase `Estudiante`
+
+Diagrama UML (GitHub lo dibuja automáticamente). El signo `-` indica que el atributo es privado.
+
+```mermaid
 classDiagram
     class Estudiante {
         -String nombre
@@ -9,11 +15,45 @@ classDiagram
     }
 ```
 
-Qué información representa cada atributo y qué valores podría almacenar
+Versión en cuadro de texto simple:
 
-Atributo	Tipo	Qué representa	Valores posibles
-nombre	String	Nombre(s) de pila del estudiante	“María”, “Juan Carlos”
-apellido	String	Apellido(s) del estudiante	“Pérez”, “Toapanta Silva”
-edad	int	Edad en años cumplidos, siempre un número entero	18, 20, 23
-carrera	String	Carrera que cursa en la universidad	“Software”, “Telecomunicaciones”, “Industrial”
-semestre	int	Nivel o semestre que cursa actualmente	1, 2, 5, 9
+```text
++-----------------------+
+|      Estudiante       |
++-----------------------+
+| - nombre   : String   |
+| - apellido : String   |
+| - edad     : int      |
+| - carrera  : String   |
+| - semestre : int      |
++-----------------------+
+```
+
+## 2. Atributos de la clase
+
+| Atributo | Tipo | Qué representa | Valores que podría almacenar |
+|---|---|---|---|
+| `nombre` | `String` | Nombre(s) de pila del estudiante | "María", "Juan Carlos" |
+| `apellido` | `String` | Apellido(s) del estudiante | "Pérez", "Toapanta Silva" |
+| `edad` | `int` | Edad en años cumplidos | 18, 20, 23 |
+| `carrera` | `String` | Carrera que cursa en la universidad | "Software", "Telecomunicaciones", "Industrial" |
+| `semestre` | `int` | Nivel o semestre que cursa actualmente | 1, 2, 5, 9 |
+
+## 3. Tipos de datos utilizados
+
+| Tipo | Qué almacena | Atributos que lo usan |
+|---|---|---|
+| `String` | Texto (palabras, nombres) | `nombre`, `apellido`, `carrera` |
+| `int` | Números enteros, sin decimales | `edad`, `semestre` |
+
+## 4. Clase y objetos de ejemplo
+
+La clase es el molde; cada objeto es un estudiante concreto con sus propios valores.
+
+| Atributo | Objeto `est1` | Objeto `est2` | Objeto `est3` |
+|---|---|---|---|
+| `nombre` | María | Juan | Ana |
+| `apellido` | Pérez | Toapanta | Salazar |
+| `edad` | 20 | 22 | 19 |
+| `carrera` | Software | Telecomunicaciones | Industrial |
+| `semestre` | 3 | 7 | 1 |
