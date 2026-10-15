@@ -1,0 +1,13 @@
+##Actividad 5. Reflexión y entrega
+
+**1. ¿Por qué una clase puede utilizarse para crear varios objetos?**
+
+Porque una clase es un modelo que permite crear varios objetos con los mismos atributos, pero con diferentes valores.
+
+**2. ¿Qué diferencias existen entre los atributos definidos en la clase y los valores de cada objeto?**
+
+Los atributos definen la información que tendrá cada objeto, mientras que los valores son los datos específicos de cada estudiante.
+
+**3. ¿Cómo podría aprovecharse la clase Estudiante dentro del proyecto integrador de la asignatura?**
+
+Podría utilizarse para registrar y organizar la información de los estudiantes de la universidad, facilitando el almacenamiento y la consulta de sus datos.
