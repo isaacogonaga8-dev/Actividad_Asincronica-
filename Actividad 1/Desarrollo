@@ -1,0 +1,11 @@
+1. ¿Qué es la programación orientada a objetos (POO)?
+Es una forma de programar en la que el software se organiza como un conjunto de objetos que representan cosas del mundo real (un estudiante, un libro, una factura). Cada objeto guarda su propia información (datos) y sabe hacer ciertas acciones (comportamientos). En lugar de escribir instrucciones sueltas, se modela el problema con piezas que se parecen a lo que existe en la realidad.
+
+2. ¿Cuál es la diferencia entre una clase y un objeto?
+La clase es el molde o plano: define qué datos y qué acciones tendrán los objetos, pero no es nada concreto todavía. El objeto es algo concreto creado a partir de ese molde, con valores propios. Una clase se escribe una sola vez; de ella se pueden crear muchos objetos.
+
+3. ¿Qué es un atributo?
+Es una característica o dato que describe a un objeto. En Java se declara como una variable dentro de la clase. Por ejemplo, un estudiante tiene nombre, edad y carrera.
+
+4. ¿Qué significa instanciar una clase?
+Es crear un objeto real a partir de una clase, reservando espacio en memoria para él. En Java se hace con la palabra new:
