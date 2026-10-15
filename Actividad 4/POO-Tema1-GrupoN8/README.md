@@ -35,4 +35,3 @@ colaborativo en GitHub.
 3. Compilar: `javac Estudiante.java Principal.java`
 4. Ejecutar: `java Principal`
 
-5. 
