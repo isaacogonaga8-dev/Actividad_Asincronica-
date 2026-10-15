@@ -9,3 +9,14 @@ Es una característica o dato que describe a un objeto. En Java se declara como 
 
 4. ¿Qué significa instanciar una clase?
 Es crear un objeto real a partir de una clase, reservando espacio en memoria para él. En Java se hace con la palabra new:
+
+5. ¿Qué ventajas tiene representar un estudiante con un objeto en lugar de variables independientes?
+
+Orden: todos los datos del estudiante viven juntos en una sola unidad, en lugar de estar dispersos en variables como nombre1, edad1, nombre2, edad2.
+Reutilización: se escribe la clase una vez y se crean tantos estudiantes como se necesiten.
+Escalabilidad: manejar 500 estudiantes con variables sueltas es inviable; con objetos basta una lista de Estudiante.
+Mantenimiento: si se agrega un dato nuevo (por ejemplo, correo), se modifica solo la clase.
+Fidelidad al mundo real: el código refleja cómo pensamos las cosas, lo que facilita entenderlo y trabajar en equipo.
+
+Ejemplo de la vida cotidiana: los carnets de la universidad
+La plantilla en blanco del carnet es la clase: define que todo carnet tendrá nombre, apellido, carrera y semestre. Cada carnet impreso para un alumno es un objeto, con sus propios datos. Cada dato de la plantilla (nombre, carrera...) es un atributo. Imprimir un carnet nuevo a partir de la plantilla es instanciar la clase. Y tener un carnet por persona es mucho más práctico que anotar los datos de todos en hojas sueltas, que es lo que serían las variables independientes.
